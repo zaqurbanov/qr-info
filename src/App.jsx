@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="qr-info/:id" element={<CardInfo />} />
+        <Route path=":id" element={<CardInfo />} />
       </Routes>
     </>
   );
 }
-  
+
 export default App;
