@@ -6,7 +6,7 @@ import { BrowserRouter as Router,Route,Routes, BrowserRouter } from 'react-route
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='/qr-info'>
+  <BrowserRouter basename='/qr-info/'>
     <App />
   </BrowserRouter>,
 )
