@@ -58,11 +58,11 @@ const CardInfo = () => {
                 />
 
                 <div className="flex flex-col items-center mt-8">
-                  <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                  <h5 className="mb-1 text-xl font-medium text-gray-900 ">
                     {`${userInfoData?.fields?.name}  ${userInfoData?.fields?.surname}`}
                   </h5>
 
-                  <span className="text-sm  dark:text-gray-400">
+                  <span className="text-sm  ">
                     {userInfoData?.fields?.workAddress}
                   </span>
                 </div>
