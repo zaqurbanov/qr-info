@@ -47,12 +47,12 @@ const CardInfo = () => {
             speedMultiplier={1}
           />
         ) : (
-          <div className="max-w-[450px] w-full min-w-60 flex flex-col gap-8 p-5 border">
+          <div className="max-w-[450px] w-full min-w-60 flex flex-col  mt-[30%] md:mt-[20%] gap-8 p-5 ">
             {/* Card header */}
-            <div className="w-full max-w-sm bg-[white]     border-gray-200 relative    dark:bg-gray-800 dark:border-gray-700 ">
-              <div className="flex flex-col items-center pb-10 bg-white rounded-lg customCardShadow ">
+            <div className="w-full max-w-sm bg-[white]      relative  rounded-lg   ">
+              <div className="flex flex-col items-center pb-7 bg-white rounded-lg customCardShadow ">
                 <img
-                  className="w-36 h-36 mb-3 relative mt-[-25%] rounded-full object-cover shadow-lg  p-1  ring-2 ring-gray-300 dark:ring-gray-500"
+                  className="w-32 h-32 mb-3 relative mt-[-25%] rounded-full object-cover shadow-lg  p-1  ring-2 ring-gray-300 dark:ring-gray-500"
                   src={`${userInfoData?.fields?.profilePicture}`}
                   alt="User image"
                 />
