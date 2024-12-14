@@ -52,7 +52,7 @@ const CardInfo = () => {
             <div className="w-full max-w-sm bg-[white]      relative  rounded-lg   ">
               <div className="flex flex-col items-center pb-7 bg-white rounded-lg customCardShadow ">
                 <img
-                  className="w-32 h-32 mb-3 relative mt-[-25%] rounded-full object-cover shadow-lg  p-1  ring-2 ring-gray-300 dark:ring-gray-500"
+                  className="w-32 h-32 mb-3 relative mt-[-25%] rounded-full object-cover customCardShadow    "
                   src={`${userInfoData?.fields?.profilePicture}`}
                   alt="User image"
                 />
